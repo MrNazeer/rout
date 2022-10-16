@@ -1,0 +1,57 @@
+.menu {
+    background-color: black;
+    color: white;
+    width: 100%;
+    .continer {
+        margin: 0rem 3rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+
+
+        .items {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 5rem;
+
+            .sec1 {
+                display: flex;
+                align-items: center;
+            }
+
+            .sec1>p {
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+
+            .sec2 {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 6rem;
+
+                .link {
+                    text-decoration: none;
+                    color: aliceblue;
+                    font-weight: bold;
+                }
+            }
+
+            .sec2>p {
+
+                font-size: 1rem;
+                font-weight: 700;
+
+                &:hover {
+                    color: rgb(233, 47, 47);
+                }
+            }
+
+
+
+        }
+    }
+
+}
